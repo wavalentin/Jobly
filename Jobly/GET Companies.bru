@@ -1,0 +1,11 @@
+meta {
+  name: GET Companies
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:3001/companies?minEmployees=10&maxEmployees=300
+  body: none
+  auth: none
+}
